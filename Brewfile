@@ -1,0 +1,23 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+tap 'caskroom/cask'
+tap 'homebrew/services'
+tap caskroom/fonts'
+
+brew 'yarn'
+brew 'wget'
+brew 'git'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'zsh'
+brew 'zsh-completions'
+
+cask 'google-chrome'
+cask 'dropbox'
+cask 'hyper'
+cask 'visual-studio-code'
+cask 'firefox'
+cask 'slack'
+cask 'mac-down'
+cask 'font-fira-code'
