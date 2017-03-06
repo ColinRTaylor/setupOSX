@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'caskroom/cask'
 tap 'homebrew/services'
-tap caskroom/fonts'
+tap 'caskroom/fonts'
 
 brew 'yarn'
 brew 'wget'
