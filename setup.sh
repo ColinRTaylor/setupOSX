@@ -20,7 +20,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | b
 nvm install node
 nvm use node
 
-npm i -g grunt gulp webpack surge now nodemon babel-cli react-native-cli browser-sync
+npm i -g webpack surge now nodemon babel-cli react-native-cli browser-sync
 
 cd ~/setupOSX
 cp .aliases .gitconfig .gitexcludes ~
