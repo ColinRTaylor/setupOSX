@@ -3,15 +3,32 @@ mk () {
   cd "$1"
 }
 
+# git
+alias g="git"
 alias ga="git add -A"
 alias gs="git status"
 alias gc="git commit -m"
 alias s="git status -s"
-
+alias gnb="git checkout -b"
+alias gac="git commit -am"
+alias gck="git checkout"
 
 function lazygit() {
     git add .
     git commit -a -m "$1"
     git push
 }
+# misc
 alias sync="browser-sync start --server '.' --files '*'"
+# deploy
+alias copyLastCmd='fc -ln -1 | awk '{$1=$1}1' | pbcopy '
+
+
+alias rage="adb shell input keyevent 82"
+alias reverse="adb reverse tcp:8081 tcp:8081"
+alias ccat='pygmentize -O style=monokai -f console256 -g'
+alias brcp="git rev-parse --abbrev-ref HEAD | pbcopy"
+alias gph="git push -u origin HEAD"
+alias run="npm run"
+alias rm=trash
+alias restart="source ~/.zshrc"
