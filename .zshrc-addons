@@ -1,0 +1,5 @@
+plugins=(git zsh-autosuggestions)
+ZSH_THEME="pure"
+# import aliases
+source $HOME/.aliases
+source $HOME/z.sh
