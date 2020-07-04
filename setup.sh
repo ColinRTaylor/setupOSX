@@ -8,10 +8,6 @@ xcode-select --install
 cd ~/setupOSX
 brew bundle
 
-# ruby
-rbenv install 2.4.0
-rbenv global 2.4.0
-
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -20,7 +16,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | b
 nvm install node
 nvm use node
 
-npm i -g webpack surge now nodemon babel-cli react-native-cli browser-sync
+npm i -g browser-sync
 
 cd ~/setupOSX
 cp .aliases .gitconfig .gitexcludes ~
