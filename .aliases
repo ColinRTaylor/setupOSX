@@ -24,7 +24,8 @@ alias sync="browser-sync start --server '.' --files '*'"
 alias copyLastCmd='fc -ln -1 | awk '{$1=$1}1' | pbcopy '
 
 
-alias rage="adb shell input keyevent 82"
+alias rage="adb shell input keyevent KEYCODE_MENU"
+alias bundre="adb shell input text RR"
 alias reverse="adb reverse tcp:8081 tcp:8081"
 alias ccat='pygmentize -O style=monokai -f console256 -g'
 alias brcp="git rev-parse --abbrev-ref HEAD | pbcopy"
@@ -32,3 +33,4 @@ alias gph="git push -u origin HEAD"
 alias run="npm run"
 alias rm=trash
 alias restart="source ~/.zshrc"
+
